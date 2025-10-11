@@ -1,5 +1,8 @@
 package main
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func main(){
 	// 3 different ways to declare variables in Go
@@ -25,6 +28,7 @@ func main(){
 	// fmt.Println(age)
 	// fmt.Println(isRaining)
 
-	
-	
+	msg := "one"
+	msg2 := "onelo"	
+	fmt.Println(strings.Contains(msg2, msg))
 }
