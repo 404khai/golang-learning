@@ -28,7 +28,28 @@ func main(){
 	// fmt.Println(age)
 	// fmt.Println(isRaining)
 
-	msg := "one"
-	msg2 := "onelo"	
-	fmt.Println(strings.Contains(msg2, msg))
+	msg := "Golang Programming Language"
+	msg2 := "Golang"	
+	//contains(value used as the library, the var you are checking exists in the library)
+	fmt.Println(strings.Contains(msg, msg2))
+
+	stringOne := "CAPITAL LETTERS"
+	fmt.Println(strings.ToLower(stringOne))
+
+	//conditional statememts
+	password := "1234"
+	// var foods 
+	// food := ["pizza", "meatpie", "jollof"]
+	if len(password) > 7{
+		fmt.Println("Password is secure")
+	}else{
+		fmt.Println("Password is not secure")
+	}
+
+	// format specifiers accessing a specific char in a string
+	message := "One Piece"
+	fmt.Printf("%c", message[0])
+
+	// length of a string
+	fmt.Println(len(message)) 
 }
