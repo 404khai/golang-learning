@@ -52,4 +52,21 @@ func main(){
 
 	// length of a string
 	fmt.Println(len(message)) 
+
+
+	// switch statements
+	num2 := 1000
+
+	switch{
+		case(num2 > 5):
+			fmt.Println("Number is greater than 5")
+		case(num2 < 5):
+			fmt.Println("Number is less than 5")
+	}
+
+	 
+	days := []string{"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"}
+	for i, day := range days{
+		fmt.Println(i, day)
+	}
 }
