@@ -89,4 +89,6 @@ func main(){
 		default:
 			fmt.Println("Invalid day")
 	}
-}
+
+	num := []int {10, 20, 30}
+	fmt.Println(num)
